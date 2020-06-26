@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<h2>Form buttons</h2>
+	<form action="http://www.example.com/login.php">
+		<h3>Submit Button</h3>
+		<p>Subscribe to our email list:</p>
+		<input type="text" name="email" />
+		<input type="submit" name="subscribe" value="Subscribe" />
+		<hr>
+	
+		<h3>Image Button</h3>
+		<p>Subscribe to our email list:</p>
+		<input type="text" name="email" />
+		<input type="image" src="../images/subscribe.jpg" width="100" height="20" />
+		<hr>
+		
+		<h3>Button & Hidden Controls</h3>
+		<button>
+			<img src="images/add.gif" alt="add" width="10" height="10" /> Add
+		</button>
+		<input type="hidden" name="bookmark" value="lyrics" />
+		<hr>
+		
+		<h3>Label Form</h3>
+		<label>Age: <input type="text" name="age" /></label>
+		<br/ >
+		Gender:
+		<input id="female" type="radio" name="gender" value="f">
+
+		<label for="female">Female</label>
+		<input id="male" type="radio" name="gender" value="m">
+		<label for="male">Male</label>
+		<hr>
+		
+		<h3>Grouping Form Elements</h3>
+		<fieldset>
+			<legend>Contact details</legend>
+			<label>Email:<br />
+			<input type="text" name="email" /></label><br />
+			<label>Mobile:<br />
+			<input type="text" name="mobile" /></label><br />
+			<label>Telephone:<br />
+			<input type="text" name="telephone" /></label>
+		</fieldset>
+
+	</form>
+	
+	
+</body>
+</html>
